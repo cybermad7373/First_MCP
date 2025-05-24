@@ -1,11 +1,19 @@
 from mcp.server.fastmcp import FastMCP
 from typing import List
+<<<<<<< HEAD
 
 # In-memory mock database with 20 leave days to start
 employee_leaves = {
     "E001": {"balance": 18, "history": ["2024-12-25", "2025-01-01"]},
     "E002": {"balance": 20, "history": []}
 }
+=======
+import json
+
+# Load data from JSON file
+with open('employee_leaves.json', 'r') as file:
+    employee_leaves = json.load(file)
+>>>>>>> main
 
 # Create MCP server
 mcp = FastMCP("LeaveManager")
