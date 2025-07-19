@@ -228,10 +228,12 @@ def get_leave_history(data: Dict) -> str:
 
 ---
 
-Refrence Documentaions :
+Reference Documentations:
 
 [For Server Developers](https://modelcontextprotocol.io/quickstart/server#windows)
+
 [Building MCP with LLMs](https://modelcontextprotocol.io/tutorials/building-mcp-with-llms)
+
 [Debugging MCP](https://modelcontextprotocol.io/docs/tools/debugging)
 
 Happy Coding! 💼🧠🌤️
